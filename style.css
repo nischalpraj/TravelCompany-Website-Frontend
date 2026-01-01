@@ -3,10 +3,8 @@
   padding: 0px;
 }
 #mainmobile-div {
-  max-width: 360px;
   max-height: 5400px;
   margin: auto;
-  border: 1px solid black;
 }
 #bg-image {
   height: 100vh;
@@ -19,6 +17,13 @@
 #navbar {
   display: flex;
   font-family: "Baloo Bhai 2", sans-serif;
+}
+#middlepart,
+#contact {
+  display: none;
+}
+#logo {
+  display: flex;
 }
 #name {
   font-size: 28.33px;
@@ -544,4 +549,193 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+@media (min-width: 1024px) {
+  #mainmobile-div {
+    width: 100%;
+  }
+  #navbar {
+    width: 100%;
+  }
+  #navbar img {
+    display: none;
+  }
+  #bg-img {
+    width: 100vh;
+    background: url("BG.png") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  #middlepart {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    color: rgba(90, 113, 132, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    gap: 70px;
+  }
+  #middlepart p:hover {
+    color: rgba(254, 123, 73, 1);
+    cursor: pointer;
+  }
+  #contact {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  #contact p {
+    background-color: rgba(254, 123, 73, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+  }
+  #contact p:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+  #mainimage {
+    margin-top: 150px;
+    margin-right: -700px;
+  }
+  #mainimage img {
+    width: 645px;
+    height: 600px;
+  }
+  #quote {
+    font-family: "Paytone One", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1000px;
+    margin-top: -500px;
+  }
+  #description {
+    margin-left: -1000px;
+    margin-top: 30px;
+    width: 392px;
+    font-size: 16px;
+  }
+  #bigbox {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 1024px;
+    height: 140px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+  }
+  #bigbox:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+  #location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    margin-top: -10px;
+  }
+  #locationbutton,
+  #datebutton,
+  #averagebutton {
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  #locationbutton p,
+  #datebutton p,
+  #averagebutton p {
+    font-size: 16px;
+    color: rgba(168, 168, 168, 1);
+    font-weight: 600;
+  }
+  #locationbutton i,
+  #datebutton i,
+  #averagebutton i {
+    color: rgba(255, 131, 69, 1);
+    font-size: 16px;
+  }
+  #locationname,
+  #dateandtime,
+  #price {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #location img,
+  #date img {
+    display: none;
+  }
+  #avgprice,
+  #date,
+  #explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+  }
+  #explore p {
+    width: 177px;
+    height: 70px;
+    background-color: rgba(254, 123, 73, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  #heading {
+    font-family: "Paytone One", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  #innerheading {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    gap: 30px;
+    position: relative;
+  }
+  #viewall {
+    color: rgba(254, 123, 73, 1);
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    right: 200px;
+  }
 }
