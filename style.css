@@ -164,7 +164,7 @@
   font-size: 12px;
   margin-top: 10px;
 }
-#familyvacation {
+#services {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -181,6 +181,11 @@
   margin-top: 30px;
   width: 260px;
   height: 248px;
+}
+#mainbox-2,
+#mainbox-3,
+#mainbox-4 {
+  display: none;
 }
 #mainbox:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -223,6 +228,18 @@
   font-family: "Paytone One", sans-serif;
   font-size: 24px;
   font-weight: 400;
+}
+#tour-packages{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #abcimg {
   display: flex;
@@ -738,4 +755,173 @@
     position: absolute;
     right: 200px;
   }
+  #familyvacation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  #mainbox-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px lightgray solid;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 30px;
+    width: 260px;
+    height: 248px;
+  }
+  #mainbox-2:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  #sucbaicon img {
+    width: 100px;
+    height: 100px;
+  }
+  #scuba-text p {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Paytone One", sans-serif;
+    margin-top: -10px;
+  }
+  #speople p {
+    font-family: "Paytone One", sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+  }
+  #mainbox-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px lightgray solid;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 30px;
+    width: 260px;
+    height: 248px;
+  }
+  #mainbox-3:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  #huntingicon img {
+    width: 100px;
+    height: 100px;
+  }
+  #hunting-text p {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Paytone One", sans-serif;
+    margin-top: -10px;
+  }
+  #hpeople p {
+    font-family: "Paytone One", sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+  }
+  #mainbox-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px lightgray solid;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 30px;
+    width: 260px;
+    height: 248px;
+  }
+  #mainbox-4:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  #mountainbikeicon img {
+    width: 100px;
+    height: 100px;
+  }
+  #mountainbike-text p {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Paytone One", sans-serif;
+    margin-top: 10px;
+  }
+  #mpeople p {
+    font-family: "Paytone One", sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-top: 5px;
+  }
+  #package-text {
+  font-size: 45px;
+  margin-top:20px;
+}
+  #tour-packages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+#main-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#abcimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+#abcimg img {
+  object-fit: cover;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+}
+#abcimg p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  color: white;
+}
+#about {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+#icon {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  color: rgba(254, 123, 73, 1);
+}
+#placename {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#annapurna {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+#duration {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(90, 113, 132, 1);
+}
+#review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(254, 123, 73, 1);
+}
 }
