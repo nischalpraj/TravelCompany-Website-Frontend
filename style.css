@@ -229,17 +229,21 @@
   font-size: 24px;
   font-weight: 400;
 }
-#tour-packages{
+#tour-packages {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#main-img{
+#main-img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+#main-img-2,
+#main-img-3 {
+  display: none;
 }
 #abcimg {
   display: flex;
@@ -254,6 +258,7 @@
   width: 94%;
   height: 100%;
   border-radius: 10px;
+  margin-left: 5px;
 }
 #abcimg p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -591,10 +596,16 @@
     align-items: center;
     flex: 1;
   }
+  #name {
+    font-size: 82px;
+  }
+  #fullstop {
+    font-size: 82px;
+  }
   #middlepart {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-    font-size: 16px;
+    font-size: 28px;
     color: rgba(90, 113, 132, 1);
     display: flex;
     justify-content: center;
@@ -619,19 +630,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
     border-radius: 10px;
     margin-top: 10px;
     color: white;
+    font-size: 24px;
   }
   #contact p:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     cursor: pointer;
   }
   #mainimage {
-    margin-top: 150px;
-    margin-right: -700px;
+    margin-top: 80px;
+    margin-right: -500px;
   }
   #mainimage img {
     width: 645px;
@@ -824,6 +836,7 @@
     color: gray;
     margin-top: 10px;
   }
+
   #mainbox-4 {
     display: flex;
     align-items: center;
@@ -855,73 +868,117 @@
     color: gray;
     margin-top: 5px;
   }
+  #circle {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+  }
   #package-text {
-  font-size: 45px;
-  margin-top:20px;
-}
-  #tour-packages{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top:20px;
-}
-#main-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#abcimg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  position: relative;
-}
-#abcimg img {
-  object-fit: cover;
-  width: 40%;
-  height: 100%;
-  border-radius: 10px;
-}
-#abcimg p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 24px;
-  position: absolute;
-  top: 18px;
-  right: 28px;
-  color: white;
-}
-#about {
-  display: flex;
-  margin-top: 30px;
-  gap: 20px;
-}
-#icon {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  color: rgba(254, 123, 73, 1);
-}
-#placename {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-#annapurna {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
-}
-#duration {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgba(90, 113, 132, 1);
-}
-#review {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(254, 123, 73, 1);
-}
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  #tour-packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  #main-img,
+  #main-img-2,
+  #main-img-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.25s ease, 0.25s ease;
+  }
+  #main-img:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
+  }
+  #main-img-2:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
+  }
+  #main-img-3:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
+  }
+  #abcimg,
+  #langtangimg,
+  #mustangimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+  }
+  #abcimg img,
+  #langtangimg img,
+  #mustangimg img {
+    object-fit: cover;
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+  }
+  #abcimg p,
+  #langtangimg p,
+  #mustangimg p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 32px;
+    position: absolute;
+    top: 18px;
+    right: 28px;
+    color: white;
+  }
+  #about {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+  }
+  #icon {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: rgba(254, 123, 73, 1);
+    font-size: 24px;
+  }
+  #placename {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #annapurna,
+  #mustang,
+  #langtang {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: -30px;
+  }
+  #duration {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: rgba(90, 113, 132, 1);
+    font-size: 16px;
+    margin-left: -30px;
+  }
+  #review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(254, 123, 73, 1);
+    font-size: 24px;
+  }
+  #viewbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
 }
