@@ -985,10 +985,11 @@
     margin-top: 200px;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
   }
-  #main-container{
+  #main-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -998,6 +999,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 30px;
+  }
+  #destinationdescription {
+    display: flex;
+    flex-direction: column;
+    width: 892px;
+    margin-left: 290px;
+  }
+  #description_ {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin: -50px 0px 0px 20px;
+    width: 452px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgba(90, 113, 132, 1);
   }
   #circle2 {
     display: none;
@@ -1005,13 +1026,12 @@
   #quote1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
+    margin: 100px;
   }
   #uppertext1,
   #lowertext1 {
     font-family: "Paytone One", sans-serif;
-    font-size: 24px;
+    font-size: 80px;
     font-weight: 400;
     display: flex;
     flex-direction: column;
@@ -1033,11 +1053,75 @@
   }
   #pachpokhari img {
     object-fit: cover;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
   }
   #pachpokhari-text {
+    display: flex;
+    gap: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+  }
+  #imageofgosaikunda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+  }
+  #gosaikunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #gosaikunda img {
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  #gosaikunda-text {
+    display: flex;
+    gap: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+  }
+  #pparrow {
+    color: rgba(254, 123, 73, 1);
+    font-size: 34px;
+    position: absolute;
+    bottom: -84px;
+  }
+   #imageofbhairabkunda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+  }
+  #bhairabkunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #bhairabkunda img {
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  #bhairabkunda-text {
     display: flex;
     gap: 50px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -1057,7 +1141,7 @@
     color: white;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin: 40px 0px 0px 20px;
   }
   #explore p:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
