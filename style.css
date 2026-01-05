@@ -338,7 +338,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: -80px;
+  margin-left: 26px;
+}
+#description_ {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(90, 113, 132, 1);
+  margin: 10px 0px 0px 20px;
 }
 #imageofpp {
   display: flex;
@@ -367,6 +378,9 @@
   color: white;
   position: absolute;
   bottom: 10px;
+}
+#imageofgosaikunda,#imageofbhairabkunda {
+  display: none;
 }
 #explore1 {
   width: 177px;
@@ -988,6 +1002,7 @@
     justify-content: center;
     align-items: center;
     height: 900px;
+    position: relative;
   }
   #main-container {
     display: flex;
@@ -1045,6 +1060,7 @@
     align-items: center;
     margin-top: 30px;
     position: relative;
+    transition: transform 0.25s ease, 0.25s ease;
   }
   #pachpokhari {
     display: flex;
@@ -1056,6 +1072,10 @@
     width: 350px;
     height: 500px;
     border-radius: 10px;
+  }
+  #imageofpp:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
   }
   #pachpokhari-text {
     display: flex;
@@ -1079,12 +1099,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.25s ease, 0.25s ease;
   }
   #gosaikunda img {
     object-fit: cover;
     width: 350px;
     height: 500px;
     border-radius: 10px;
+  }
+  #gosaikunda:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
   }
   #gosaikunda-text {
     display: flex;
@@ -1102,13 +1127,14 @@
     position: absolute;
     bottom: -84px;
   }
-   #imageofbhairabkunda {
+  #imageofbhairabkunda {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     position: relative;
+    overflow: hidden;
   }
   #bhairabkunda {
     display: flex;
@@ -1120,6 +1146,8 @@
     width: 350px;
     height: 500px;
     border-radius: 10px;
+    position: relative;
+    transition: transform 0.25s ease, 0.25s ease;
   }
   #bhairabkunda-text {
     display: flex;
