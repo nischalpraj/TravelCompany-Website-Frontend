@@ -406,6 +406,13 @@ body{
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+#circle2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
 #viewbutton p:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   cursor: pointer;
