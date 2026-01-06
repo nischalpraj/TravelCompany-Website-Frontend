@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  overflow-x: hidden;
+}
 #mainmobile-div {
   max-height: 5400px;
   margin: auto;
@@ -379,7 +382,8 @@
   position: absolute;
   bottom: 10px;
 }
-#imageofgosaikunda,#imageofbhairabkunda {
+#imageofgosaikunda,
+#imageofbhairabkunda {
   display: none;
 }
 #explore1 {
@@ -392,7 +396,7 @@
   color: white;
   font-size: 20px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 18px;
 }
 #explore p:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -1052,6 +1056,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: -80px;
   }
   #imageofpp {
     display: flex;
@@ -1122,10 +1127,14 @@
     bottom: 10px;
   }
   #pparrow {
-    color: rgba(254, 123, 73, 1);
+    color: rgba(255, 175, 140, 1);
     font-size: 34px;
     position: absolute;
     bottom: -84px;
+  }
+  #pparrow:hover {
+    color: rgba(254, 123, 73, 1);
+    cursor: pointer;
   }
   #imageofbhairabkunda {
     display: flex;
@@ -1134,12 +1143,17 @@
     align-items: center;
     margin-top: 30px;
     position: relative;
-    overflow: hidden;
+    transition: transform 0.25s ease, 0.25s ease;
   }
   #bhairabkunda {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
+  }
+  #imageofbhairabkunda:hover {
+    transform: translateY(-40px);
+    cursor: pointer;
   }
   #bhairabkunda img {
     object-fit: cover;
@@ -1147,7 +1161,7 @@
     height: 500px;
     border-radius: 10px;
     position: relative;
-    transition: transform 0.25s ease, 0.25s ease;
+    object-fit: cover;
   }
   #bhairabkunda-text {
     display: flex;
