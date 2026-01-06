@@ -1221,6 +1221,12 @@ body{
   width: 600px;
   margin-bottom:50px;
 }
+#fourthtext{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-left:80px;
+}
 #quote2 {
   display: flex;
   flex-direction: column;
@@ -1231,7 +1237,7 @@ body{
 #uppertext2,
 #lowertext2 {
   font-family: "Paytone One", sans-serif;
-  font-size: 24px;
+  font-size: 80px;
   font-weight: 400;
   display: flex;
   flex-direction: column;
