@@ -1218,7 +1218,8 @@ body{
 }
 #manimage img {
   object-fit: cover;
-  width: 94%;
+  width: 600px;
+  margin-bottom:50px;
 }
 #quote2 {
   display: flex;
