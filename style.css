@@ -1283,4 +1283,21 @@ body {
   #circlebutton i:hover {
     opacity: 100%;
   }
+  #quote3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#uppertext3,
+#lowertext3 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 }
