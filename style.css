@@ -1309,4 +1309,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+#imgofmap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#imgofmap img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 }
