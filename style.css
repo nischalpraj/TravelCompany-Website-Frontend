@@ -530,7 +530,6 @@ body {
 #quote4 {
   display: flex;
   flex-direction: column;
-  margin-left: -160px;
   margin-top: 50px;
 }
 #uppertext4 {
@@ -579,15 +578,14 @@ body {
 #copyright {
   font-family: Open Sans, sans-serif;
   width: 100%;
-  margin-left: 40px;
-  margin-top: 10px;
+  margin: 10px 0px 0px 20px;
 }
 #icons {
   margin-top: 10px;
   display: flex;
   gap: 20px;
   width: 100%;
-  margin-left: 40px;
+  margin-left: 1px;
 }
 #fotterimg {
   object-fit: contain;
@@ -1349,7 +1347,7 @@ body {
   #subscribe {
     position: absolute;
     top: 12px;
-    left:180px;
+    left: 180px;
     background-color: rgba(254, 123, 73, 1);
     width: 125px;
     height: 30px;
@@ -1362,14 +1360,26 @@ body {
   #lastlogo {
     display: flex;
     font-family: "Baloo Bhai 2", sans-serif;
-    margin-top: 50px;
+    margin: 100px 0px 0px 150px;
     width: 100%;
+  }
+  #name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  #fullstop {
+    font-size: 32px;
+    color: rgba(254, 123, 73, 1);
+    font-weight: 700;
   }
   #copyright {
     font-family: Open Sans, sans-serif;
     width: 100%;
-    margin-left: 40px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 170px;
+  }
+  #copyright p {
+    display: inline-block;
   }
   #icons {
     margin-top: 10px;
