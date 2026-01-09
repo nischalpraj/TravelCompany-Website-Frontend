@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-items: center;
   align-items: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
@@ -79,7 +79,7 @@ body {
   align-items: center;
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 #bigbox:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
@@ -264,7 +264,7 @@ body {
   margin-left: 5px;
 }
 #abcimg p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 24px;
   position: absolute;
   top: 18px;
@@ -288,11 +288,11 @@ body {
   gap: 8px;
 }
 #annapurna {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: 600;
 }
 #duration {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   color: rgba(90, 113, 132, 1);
 }
 #review {
@@ -347,7 +347,7 @@ body {
   display: flex;
   justify-items: center;
   align-items: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
@@ -376,7 +376,7 @@ body {
 #pachpokhari-text {
   display: flex;
   gap: 50px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 14px;
   color: white;
   position: absolute;
@@ -458,7 +458,7 @@ body {
   margin-top: 20px;
 }
 #feedback p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 18px;
   margin: 10px 0 0 20px;
   line-height: 30px;
@@ -469,7 +469,7 @@ body {
   align-items: center;
 }
 #ceo p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 18px;
   margin: 10px 0 0 20px;
   line-height: 30px;
@@ -540,7 +540,7 @@ body {
   margin-left: 20px;
 }
 #email {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   margin-top: 30px;
   position: relative;
   display: flex;
@@ -577,7 +577,7 @@ body {
   width: 100%;
 }
 #copyright {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Open Sans, sans-serif;
   width: 100%;
   margin-left: 40px;
   margin-top: 10px;
@@ -628,8 +628,7 @@ body {
     font-size: 82px;
   }
   #middlepart {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 28px;
     color: rgba(90, 113, 132, 1);
     display: flex;
@@ -643,8 +642,7 @@ body {
     cursor: pointer;
   }
   #contact {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -702,8 +700,7 @@ body {
     justify-content: center;
     align-content: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     position: absolute;
     bottom: 10px;
     right: 300px;
@@ -952,8 +949,7 @@ body {
   #abcimg p,
   #langtangimg p,
   #mustangimg p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 32px;
     position: absolute;
     top: 18px;
@@ -980,15 +976,13 @@ body {
   #annapurna,
   #mustang,
   #langtang {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 24px;
     font-weight: 600;
     margin-left: -30px;
   }
   #duration {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     color: rgba(90, 113, 132, 1);
     font-size: 16px;
     margin-left: -30px;
@@ -1037,8 +1031,7 @@ body {
     display: flex;
     justify-items: center;
     align-items: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     margin: -50px 0px 0px 20px;
     width: 452px;
     font-size: 24px;
@@ -1092,8 +1085,7 @@ body {
   #pachpokhari-text {
     display: flex;
     gap: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 14px;
     color: white;
     position: absolute;
@@ -1126,7 +1118,7 @@ body {
   #gosaikunda-text {
     display: flex;
     gap: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
       sans-serif;
     font-size: 14px;
     color: white;
@@ -1173,8 +1165,7 @@ body {
   #bhairabkunda-text {
     display: flex;
     gap: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 14px;
     color: white;
     position: absolute;
@@ -1250,8 +1241,7 @@ body {
     margin-top: 20px;
   }
   #feedback p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 24px;
     width: 452px;
     margin: 10px 0px 0px -120px;
@@ -1263,8 +1253,7 @@ body {
     align-items: center;
   }
   #ceo p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
     margin: 10px 0 0 30px;
     line-height: 30px;
@@ -1284,41 +1273,117 @@ body {
     opacity: 100%;
   }
   #fifthpage {
-  height: 820px;
-  background:none;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  position: relative;
-}
+    height: 820px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+  }
   #quote3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-#uppertext3,
-#lowertext3 {
-  font-family: "Paytone One", sans-serif;
-  font-size: 80px;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#imgofmap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-#imgofmap img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  #uppertext3,
+  #lowertext3 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #imgofmap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  #imgofmap img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  #lastdiv {
+    display: flex;
+    align-content: center;
+    justify-items: start;
+    flex-direction: column;
+    width: 100%;
+  }
+  #quote4 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 160px;
+  }
+  #uppertext4 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-left: 20px;
+  }
+  #email {
+    font-family: Open Sans, sans-serif;
+    margin: 30px 0px 0px 180px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+  }
+  #emailbox {
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: 1px #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  #emailbox:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  }
+  #subscribe {
+    position: absolute;
+    top: 12px;
+    left:180px;
+    background-color: rgba(254, 123, 73, 1);
+    width: 125px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+  }
+  #lastlogo {
+    display: flex;
+    font-family: "Baloo Bhai 2", sans-serif;
+    margin-top: 50px;
+    width: 100%;
+  }
+  #copyright {
+    font-family: Open Sans, sans-serif;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  #icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-left: 40px;
+  }
+  #fotterimg {
+    object-fit: contain;
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
 }
