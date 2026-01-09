@@ -1328,7 +1328,7 @@ body {
   }
   #email {
     font-family: Open Sans, sans-serif;
-    margin: 30px 0px 0px 180px;
+    margin: 45px 0px 0px 180px;
     position: relative;
     display: flex;
     justify-content: start;
@@ -1376,18 +1376,26 @@ body {
   #copyright {
     font-family: Open Sans, sans-serif;
     width: 100%;
-    margin: 10px 0px 0px 170px;
+    margin: 0px 0px 0px 170px;
+    display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap; 
   }
   #copyright p {
     display: inline-block;
   }
-  #icons {
-    margin-top: 10px;
-    display: flex;
-    gap: 20px;
-    width: 100%;
-    margin-left: 40px;
+  #copyright div{
+    display:inline-block;
   }
+ #icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;        /* spacing between icons */
+  margin-left: 100px; /* push icons to right */  
+}
+
+
   #fotterimg {
     object-fit: contain;
     width: 200px;
