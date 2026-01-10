@@ -1400,10 +1400,9 @@ body {
   }
   #fotterimg {
     object-fit: contain;
-    width: 200px;
-    height: 180px;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: -900px;
+    right: 300px;
   }
+  
 }
