@@ -28,12 +28,12 @@ body {
 #logo {
   display: flex;
 }
-#name {
+#name, #name2 {
   font-size: 28.33px;
   font-weight: 700;
   margin-left: 20px;
 }
-#fullstop {
+#fullstop, #fullstop2 {
   font-size: 28.33px;
   color: rgba(254, 123, 73, 1);
   font-weight: 700;
@@ -1363,12 +1363,12 @@ body {
     margin: 100px 0px 0px 150px;
     width: 100%;
   }
-  #name {
+  #name2 {
     font-size: 32px;
     font-weight: 700;
     margin-left: 20px;
   }
-  #fullstop {
+  #fullstop2 {
     font-size: 32px;
     color: rgba(254, 123, 73, 1);
     font-weight: 700;
@@ -1404,5 +1404,8 @@ body {
     bottom: -900px;
     right: 300px;
   }
-  
+  #icons img{
+    height:600px;
+    width:420px;
+  }
 }
