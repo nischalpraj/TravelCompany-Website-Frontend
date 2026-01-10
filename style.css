@@ -1378,24 +1378,26 @@ body {
     width: 100%;
     margin: 0px 0px 0px 170px;
     display: flex;
-  align-items: center;
-  gap: 8px;
-  white-space: nowrap; 
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
   }
   #copyright p {
     display: inline-block;
   }
-  #copyright div{
-    display:inline-block;
+  #copyright div {
+    display: inline-block;
   }
- #icons {
-  display: flex;
-  align-items: center;
-  gap: 40px;        /* spacing between icons */
-  margin-left: 100px; /* push icons to right */  
-}
-
-
+  #icons {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-left: 400px;
+  }
+  #icons i {
+    font-size: 20px;
+    margin-right: 20px;
+  }
   #fotterimg {
     object-fit: contain;
     width: 200px;
