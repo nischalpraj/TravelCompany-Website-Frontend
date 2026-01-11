@@ -28,12 +28,14 @@ body {
 #logo {
   display: flex;
 }
-#name, #name2 {
+#name,
+#name2 {
   font-size: 28.33px;
   font-weight: 700;
   margin-left: 20px;
 }
-#fullstop, #fullstop2 {
+#fullstop,
+#fullstop2 {
   font-size: 28.33px;
   color: rgba(254, 123, 73, 1);
   font-weight: 700;
@@ -1404,8 +1406,8 @@ body {
     bottom: -900px;
     right: 300px;
   }
-  #icons img{
-    height:600px;
-    width:420px;
+  #icons img {
+    height: 600px;
+    width: 420px;
   }
 }
